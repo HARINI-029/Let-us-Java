@@ -1,0 +1,11 @@
+package cal_si;
+public class cal_of_si
+{
+    public static void main (String[]args)
+    {
+        float si,p=2000,r=2;
+        int n=1;
+        si = (p*r*n)/100;
+        System.out.println (si);
+    }
+}
