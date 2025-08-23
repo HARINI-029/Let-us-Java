@@ -1,0 +1,22 @@
+/**
+Assume a suitable value for c salary. His dearness 
+allowance is 40% of basic salary, and house rent allowance is 20% of 
+basic salary. Write a Java program to calculate his gross salary. 
+**/
+FORMULA :
+Gross Salary=Basic Salary+DA+HRA
+
+PROGRAM:
+
+pakage salary;
+public class salary
+{
+public static void main (String [] args)
+{
+  float bs = 200000;
+float da = (40f/100)*bs;
+float hr = (20f/100)*bs;
+float gross = bs+da+hr;
+System.out.println (gross);
+}
+}
