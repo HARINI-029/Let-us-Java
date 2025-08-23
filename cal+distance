@@ -1,0 +1,25 @@
+/**
+Assume a suitable value for distance between two cities (in km.). 
+Write a Java program to convert and print this distance in meters, 
+feet, inches and centimeters. 
+**/
+FORMULA:
+1KM = 1000M
+1M = 100 cm
+1inch = cm/2.54
+feet = inch/12
+
+package distance;
+public class cal_distance
+{
+public static void main (Strings[]args)
+{
+int distance = 2;//in km
+int meter = distance * 1000;// 2000m
+int cm = meter * 100;
+int inch = cm /2.54;
+int feet= inch/12
+System.out.Println (meter+" "+cm+""+inch+""+feet);
+}
+}
+
