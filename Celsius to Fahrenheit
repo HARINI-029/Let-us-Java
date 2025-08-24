@@ -1,0 +1,10 @@
+package coversion
+public class celsius_to_fahrenheit
+{
+public static void main (System []args)
+{
+float c = 15;
+float f = (9.0f/5,0f)*c + 32;
+System.out.println (f);
+}
+}
