@@ -1,0 +1,17 @@
+package simple_interest
+import java.util.*;
+public class Main
+{
+public static void main (String []args)
+{
+float p,r,si;
+int n;
+System.out.println ("Enter the values");
+Scanner sc =  new Scanner(System.in);
+p = sc.nextFloat ();
+r= sc.nextFloat ();
+n = sc.nextInt ();
+si = (p* r*n)/100;
+System.out.println (si);
+}
+}
