@@ -1,0 +1,14 @@
+import java.util.*;
+public  class Main
+{
+public static void main (String args[])
+{
+float m1,m2,sum=0;
+Scanner sc = new Scanner(System.in);
+m1 = sc.nextFloat();
+m2= sc.nextFloat();
+sum = m1+m2;
+float avg = (m1 + m2)/2;
+System.out.println (avg);
+}
+}
