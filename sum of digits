@@ -1,0 +1,21 @@
+If a five-digit number is input through the keyboard, write a Java 
+program to calculate the sum of its digits.  
+
+import java.util.*;
+public class Main 
+{
+public static void main (String args[])
+{
+int n;
+Scanner sc = new Scanner (System.in);
+n = sc.nextInt ();
+int sum =0;
+while (n!=0)
+{
+int last = n % 10;
+sum = sum + last;
+n = n/10;
+}
+System.out.println (sum);
+}
+}
