@@ -1,0 +1,15 @@
+public class Main 
+{
+public static void main (String args[])
+{
+display d =  new display ();
+d.output ();
+}
+}
+class display 
+{
+void output ()
+{
+System.out.println ("Inside function");
+}
+}
