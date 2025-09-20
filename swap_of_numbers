@@ -1,0 +1,20 @@
+Two numbers are input through the keyboard into two locations C 
+and D. Write a Java program to interchange the contents of C and 
+D. 
+
+ import java.util.*;
+public class Main 
+{
+public static void main (String args[])
+{
+int a,b;
+Scanner sc = new Scanner (System.in);
+a = sc.nextInt();
+b = sc.nextInt ();
+System.out.println ("BEFORE SWAP" + "a="+ a+ "b=" + b);
+int temp = a;
+a=b;
+b=temp;
+System.out.println ("After SWAP" + "a="+ a+ "b=" + b);
+}
+}
